@@ -135,4 +135,5 @@ basic.forever(function () {
     }
     basic.showString("Punkte")
     basic.showNumber(Reaktionszeit / 1000)
+    x = 0
 })
