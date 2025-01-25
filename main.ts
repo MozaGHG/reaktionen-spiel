@@ -130,7 +130,6 @@ basic.forever(function () {
                                                                                                     } else {
                                                                                                         Reaktionszeit += 100
                                                                                                         basic.showIcon(IconNames.Sad)
-                                                                                                        x = 0
                                                                                                     }
                                                                                                 }
                                                                                             }
@@ -156,5 +155,6 @@ basic.forever(function () {
             }
         }
     }
-    basic.showNumber((1000 - Reaktionszeit) * 100)
+    basic.showNumber((2400 - Reaktionszeit) / 100)
+    x = 0
 })
