@@ -1,6 +1,9 @@
 let x = 0
 let Punkte = 0
 let Reaktionszeit = 0
+input.onButtonEvent(Button.AB, input.buttonEventClick(), function () {
+    x = 0
+})
 input.onButtonEvent(Button.B, input.buttonEventClick(), function () {
     x = 1
     Punkte = 0
