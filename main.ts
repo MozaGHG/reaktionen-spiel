@@ -15,78 +15,97 @@ basic.forever(function () {
         if (input.buttonIsPressed(Button.A)) {
             Reaktionszeit += 100
         } else {
+            Reaktionszeit += 100
             basic.pause(100)
             if (input.buttonIsPressed(Button.A)) {
                 Reaktionszeit += 100
             } else {
+                Reaktionszeit += 100
                 basic.pause(100)
                 if (input.buttonIsPressed(Button.A)) {
                     Reaktionszeit += 100
                 } else {
+                    Reaktionszeit += 100
                     basic.pause(100)
                     if (input.buttonIsPressed(Button.A)) {
                         Reaktionszeit += 100
                     } else {
+                        Reaktionszeit += 100
                         basic.pause(100)
                         if (input.buttonIsPressed(Button.A)) {
                             Reaktionszeit += 100
                         } else {
+                            Reaktionszeit += 100
                             basic.pause(100)
                             if (input.buttonIsPressed(Button.A)) {
                                 Reaktionszeit += 100
                             } else {
+                                Reaktionszeit += 100
                                 basic.pause(100)
                                 if (input.buttonIsPressed(Button.A)) {
                                     Reaktionszeit += 100
                                 } else {
+                                    Reaktionszeit += 100
                                     basic.pause(100)
                                     if (input.buttonIsPressed(Button.A)) {
                                         Reaktionszeit += 100
                                     } else {
+                                        Reaktionszeit += 100
                                         basic.pause(100)
                                         if (input.buttonIsPressed(Button.A)) {
                                             Reaktionszeit += 100
                                         } else {
+                                            Reaktionszeit += 100
                                             basic.pause(100)
                                             if (input.buttonIsPressed(Button.A)) {
                                                 Reaktionszeit += 100
                                             } else {
+                                                Reaktionszeit += 100
                                                 basic.pause(100)
                                                 if (input.buttonIsPressed(Button.A)) {
                                                     Reaktionszeit += 100
                                                 } else {
+                                                    Reaktionszeit += 100
                                                     basic.pause(100)
                                                     if (input.buttonIsPressed(Button.A)) {
                                                         Reaktionszeit += 100
                                                     } else {
+                                                        Reaktionszeit += 100
                                                         basic.pause(100)
                                                         if (input.buttonIsPressed(Button.A)) {
                                                             Reaktionszeit += 100
                                                         } else {
+                                                            Reaktionszeit += 100
                                                             basic.pause(100)
                                                             if (input.buttonIsPressed(Button.A)) {
                                                                 Reaktionszeit += 100
                                                             } else {
+                                                                Reaktionszeit += 100
                                                                 basic.pause(100)
                                                                 if (input.buttonIsPressed(Button.A)) {
                                                                     Reaktionszeit += 100
                                                                 } else {
+                                                                    Reaktionszeit += 100
                                                                     basic.pause(100)
                                                                     if (input.buttonIsPressed(Button.A)) {
                                                                         Reaktionszeit += 100
                                                                     } else {
+                                                                        Reaktionszeit += 100
                                                                         basic.pause(100)
                                                                         if (input.buttonIsPressed(Button.A)) {
                                                                             Reaktionszeit += 100
                                                                         } else {
+                                                                            Reaktionszeit += 100
                                                                             basic.pause(100)
                                                                             if (input.buttonIsPressed(Button.A)) {
                                                                                 Reaktionszeit += 100
                                                                             } else {
+                                                                                Reaktionszeit += 100
                                                                                 basic.pause(100)
                                                                                 if (input.buttonIsPressed(Button.A)) {
                                                                                     Reaktionszeit += 100
                                                                                 } else {
+                                                                                    Reaktionszeit += 100
                                                                                     basic.pause(100)
                                                                                     if (input.buttonIsPressed(Button.A)) {
                                                                                         Reaktionszeit += 100
@@ -95,10 +114,12 @@ basic.forever(function () {
                                                                                         if (input.buttonIsPressed(Button.A)) {
                                                                                             Reaktionszeit += 100
                                                                                         } else {
+                                                                                            Reaktionszeit += 100
                                                                                             basic.pause(100)
                                                                                             if (input.buttonIsPressed(Button.A)) {
                                                                                                 Reaktionszeit += 100
                                                                                             } else {
+                                                                                                Reaktionszeit += 100
                                                                                                 basic.pause(100)
                                                                                                 if (input.buttonIsPressed(Button.A)) {
                                                                                                     Reaktionszeit += 100
@@ -107,7 +128,9 @@ basic.forever(function () {
                                                                                                     if (input.buttonIsPressed(Button.A)) {
                                                                                                         Reaktionszeit += 100
                                                                                                     } else {
+                                                                                                        Reaktionszeit += 100
                                                                                                         basic.showIcon(IconNames.Sad)
+                                                                                                        x = 0
                                                                                                     }
                                                                                                 }
                                                                                             }
@@ -133,7 +156,5 @@ basic.forever(function () {
             }
         }
     }
-    basic.showString("Punkte")
-    basic.showNumber(Reaktionszeit / 1000)
-    x = 0
+    basic.showNumber((1000 - Reaktionszeit) * 100)
 })
